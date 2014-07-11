@@ -1,4 +1,8 @@
-import re
+"""
+Functions that solve the rosalind problems. Trying to write them in
+generic enough ways that I may be able to use them in later problems,
+if that's even possible
+"""
 
 
 COMPLEMENTS = {'A': 'T',

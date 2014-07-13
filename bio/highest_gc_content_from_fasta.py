@@ -1,3 +1,4 @@
+# http://rosalind.info/problems/gc/
 import bioutil
 import fasta
 from operator import attrgetter

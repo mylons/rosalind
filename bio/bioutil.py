@@ -4,11 +4,11 @@ generic enough ways that I may be able to use them in later problems,
 if that's even possible
 """
 
-
 COMPLEMENTS = {'A': 'T',
                'T': 'A',
                'G': 'C',
                'C': 'G'}
+
 
 def dna_to_rna(dna):
     # replace T with U
@@ -33,5 +33,7 @@ def gc_content(dna):
 def hamming_distance(dna1, dna2):
     # assumes equal length
     return sum(1 for a, b in zip(dna1, dna2) if a != b)
+
+
 
 
